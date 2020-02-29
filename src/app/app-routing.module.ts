@@ -8,6 +8,7 @@ import { ContactComponent } from './contact/contact.component';
 
 
 const routes: Routes = [
+
  {
    path: 'home',
    component: HomeComponent
@@ -29,19 +30,18 @@ const routes: Routes = [
   component: ContactComponent
 },
 {
-  path: '**',
-  redirectTo: '/error'
-},
-{
   path: '',
   redirectTo: '/home',
   pathMatch: 'prefix'
 },
-
+{
+  path: '**',
+  redirectTo: '/error'
+}
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {useHash: true})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
