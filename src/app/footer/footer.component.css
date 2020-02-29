@@ -6,3 +6,8 @@
   #sticky-footer {
     flex-shrink: none;
   }
+
+  .my-portfolio-footer {
+    background-color: rgb(32,85,164);
+    color: whitesmoke;
+  }

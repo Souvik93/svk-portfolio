@@ -1,0 +1,24 @@
+[{
+    "awardName": "Spot Excellence",
+    "companyName": "Deutsche Bank Group",
+    "awardDescription": "Recognized for uphelding Deutsche Bank value.",
+    "awardDate": "February, 2019",
+    "awardImageUrl": "./assets/1.jpg"
+
+  },
+  {
+    "awardName": "Pat On The Back",
+    "companyName": "Capgemini",
+    "awardDescription": "Award given for exemplary work towards project deliveries.",
+    "awardDate": "August, 2018",
+    "awardImageUrl": "./assets/2.jpg"
+
+  },
+  {
+    "awardName": "Rising Star",
+    "companyName": "Capgemini",
+    "awardDescription": "Award given for the outstanding quality of work done resulting in customer appreciation. Resolving and turning around any escalation and made significant contribution toward project deliverables.",
+    "awardDate": "August, 2016",
+    "awardImageUrl": "./assets/3.jpg"
+
+  }]

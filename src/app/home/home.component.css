@@ -1,3 +1,16 @@
 #mySummary{
     justify-content:center;
+    background-image: url("/assets/PP.jpg");
+}
+
+.my-portfolio-body {
+    background-color: transparent;
+}
+
+.primary-text {
+    color: antiquewhite;
+}
+
+.secondary-text {
+    color: rgb(32,85,164);
 }

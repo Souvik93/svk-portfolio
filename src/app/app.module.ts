@@ -6,10 +6,13 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { ResumeComponent } from './resume/resume.component';
-import { NotFoundComponent } from "./notfound/notfound.component";
+import { NotFoundComponent } from './notfound/notfound.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { MyPortfolioServiceService } from './my-portfolio-service.service';
+import { HttpClientModule } from '@angular/common/http';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -24,9 +27,11 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    SharedModule
   ],
-  providers: [],
+  providers: [MyPortfolioServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

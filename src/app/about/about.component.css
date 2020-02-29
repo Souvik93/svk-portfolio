@@ -1,0 +1,39 @@
+.card{
+    border: 0px;
+}
+.my-portfolio-about {
+    border-left: 4px solid rgb(32,85,164);
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.my-portfolio-text{
+    font-size: 10px;
+}
+
+.my-portfolio-sub-text {
+    font-size: 12px;
+}
+
+.my-portfolio-sub-paragraph {
+    font-size: 10px;
+}
+
+.my-portfolio-sub-card {
+    border-left: 2px dashed rgb(167,188,217);
+    padding-left: 4px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-radius: 0px;
+}
+
+.my-portfolio-awards{
+    min-height: 49px;
+}
+
+.my-portfolio-award-title {
+    padding-top:4px;
+    margin-bottom: 4px !;
+}
+
