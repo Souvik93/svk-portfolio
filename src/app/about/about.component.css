@@ -2,9 +2,28 @@
     border: 0px;
 }
 .my-portfolio-about {
-    border-left: 4px solid rgb(32,85,164);
     padding-left: 5px;
     font-size: 14px;
+}
+
+.blue {
+    border-left: 4px solid rgb(32,85,164);
+}
+
+.red {
+    border-left: 4px solid rgb(227,30,37);
+}
+
+.green {
+    border-left: 4px solid rgb(54,159,71);
+}
+
+.orange {
+    border-left: 4px solid rgb(251, 158, 88);
+}
+
+.light-green {
+    border-left: 4px solid rgb(189,226, 186);
 }
 
 .my-portfolio-text{
@@ -20,12 +39,31 @@
 }
 
 .my-portfolio-sub-card {
-    border-left: 2px dashed rgb(167,188,217);
     padding-left: 4px;
     border-right: 0px;
     border-bottom: 0px;
     border-top: 0px;
     border-radius: 0px;
+}
+
+.sub-blue {
+    border-left: 2px dashed rgb(167,188,217);
+}
+
+.sub-red {
+    border-left: 2px dashed rgb(243,167,171);
+}
+
+.sub-green {
+    border-left: 2px dashed rgb(177,216,183);
+}
+
+.sub-orange {
+    border-left: 2px dashed rgb(251, 158, 88);
+}
+
+.sub-light-green {
+    border-left: 2px dashed rgb(189,226, 186);
 }
 
 .my-portfolio-awards{

@@ -18,6 +18,10 @@ export class AboutComponent implements OnInit {
   imgUrl: string;
   imgTitle: string;
   imgFooter: string;
+  themeColor = 'blue';
+  themeSubColor = 'sub-blue';
+  subColorOptions = ['sub-blue', 'sub-orange', 'sub-red', 'sub-light-green', 'sub-green'];
+  themeolorOptions = ['blue', 'orange', 'red', 'light-green', 'green'];
 
   constructor(private myPortfolioServiceService: MyPortfolioServiceService) {
     this.myPortfolioServiceService.getAwardsDetails().subscribe((res: Awards[]) => {
@@ -34,6 +38,30 @@ export class AboutComponent implements OnInit {
    }
 
   ngOnInit(): void {
+
+    this.myPortfolioServiceService.invokeEvent.subscribe(res => {
+      console.log('jo .. !!');
+      console.log(res);
+      if (res) {
+        switch (res) {
+          case ('red'):
+            this.themeColor = res;
+            this.themeSubColor = 'sub-red';
+            break;
+          case ('blue'):
+            this.themeColor = res;
+            this.themeSubColor = 'sub-blue';
+            break;
+          case ('green'):
+            this.themeColor = res;
+            this.themeSubColor = 'sub-green';
+            break;
+          default:
+            this.themeColor = this.themeolorOptions[Math.floor(Math.random() * this.themeolorOptions.length)];
+            this.themeSubColor = this.subColorOptions[Math.floor(Math.random() * this.subColorOptions.length)];
+          }
+      }
+    });
   }
 
   onRewardClick(award: Awards): void {

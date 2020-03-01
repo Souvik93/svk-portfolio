@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MyPortfolioServiceService } from '../my-portfolio-service.service';
 
 @Component({
   selector: 'app-footer',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+  footerColor = 'blue';
+  constructor(private myService: MyPortfolioServiceService) { }
 
   ngOnInit(): void {
+
+    this.myService.invokeEvent.subscribe(res => {
+      if (res) {
+        this.footerColor = res;
+      }
+    });
+
   }
 
 }

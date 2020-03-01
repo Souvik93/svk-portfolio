@@ -1,3 +1,32 @@
-.my-portfolio-header {
+.blue {
     background-image: url("https://ow2.res.office365.com/owamail/2020021005.20/resources/images/themes/blueprint/headerbgmaing2-small.jpg");
+}
+
+.red {
+    background-image: url("https://ow2.res.office365.com/owamail/2020022303.11/resources/images/themes/paint/headerbgmaing2.png");
+}
+
+.green {
+    background-image: url("https://ow2.res.office365.com/owamail/2020022303.11/resources/images/themes/wrld/headerbgmaing2.png");
+}
+
+.mix {
+    background-image: url("https://ow2.res.office365.com/owamail/2020022303.11/resources/images/themes/ribbon/headerbgmaing2.png");
+}
+
+
+.btn-red {
+    background-color: rgb(227,30,37) ;
+}
+
+.btn-blue {
+    background-color: rgb(32,85,164) ;
+}
+
+.btn-green {
+    background-color: rgb(54,159,71) ;
+}
+
+.btn-mix {
+    background-color: rgb(251,155,81) ;
 }
