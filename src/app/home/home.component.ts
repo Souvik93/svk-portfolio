@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { MyPortfolioServiceService } from '../my-portfolio-service.service';
-import { ThrowStmt } from '@angular/compiler';
 import { trigger, transition, style, animate, state } from '@angular/animations';
 import { ActivatedRoute, Router } from '@angular/router';
 
@@ -27,8 +26,7 @@ export class HomeComponent implements OnInit {
   themeColor = 'blue';
   myDetails: string[] = [];
 
-  constructor(private myService: MyPortfolioServiceService, 
-              private route: ActivatedRoute, private router: Router) {
+  constructor(private myService: MyPortfolioServiceService, private route: ActivatedRoute, private router: Router) {
     this.myService.invokeEvent.subscribe(res => {
       console.log('jo ho .. !!');
       console.log(res);
@@ -41,10 +39,8 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.themeColor = this.route.snapshot.paramMap.get('color');
-    this.myService.getmyDetails().subscribe(res => {
+    this.myService.getMyDetails().subscribe(res => {
       this.myDetails = res;
-      console.log('Hey There !! From My Metho My Details Service');
-      console.log(res);
     });
   }
 

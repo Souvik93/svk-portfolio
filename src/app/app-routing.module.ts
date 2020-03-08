@@ -14,7 +14,7 @@ const routes: Routes = [
    component: HomeComponent
  },
 {
-  path: 'resume',
+  path: 'resume/:color',
   component: ResumeComponent
 },
 {
@@ -22,11 +22,11 @@ const routes: Routes = [
   component: NotFoundComponent
 },
 {
-  path: 'about/:id',
+  path: 'about/:color',
   component: AboutComponent
 },
 {
-  path: 'contact',
+  path: 'contact/:color',
   component: ContactComponent
 },
 {

@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
-html,
+
 body {
-  height: 100%;
+  min-height: 100%;
 }
 
 .btn-red {
@@ -20,20 +20,61 @@ body {
   background-color: rgb(251,155,81) ;
 }
 
-.btn-secondary-red {
+.secondary-text-red {
   color: rgb(227,30,37) ;
 }
 
+.secondary-text-mix {
+  color: rgb(189,226, 186) ;
+}
+
+.secondary-text-green {
+  color: rgb(54,159,71) ;
+}
+
+.secondary-text-blue {
+  color: rgb(32,85,164) ;
+}
+
+.btn-secondary-red {
+  background-color: transparent;
+  color: rgb(227,30,37) ;
+  border: 1px solid rgb(227,30,37);
+
+}
+
 .btn-secondary-blue {
+  background-color: transparent;
+  border: 1px solid rgb(32,85,164);
   color: rgb(32,85,164) ;
 }
 
 .btn-secondary-green {
+  background-color: transparent;
+  border: 1px solid rgb(54,159,71);
   color: rgb(54,159,71) ;
 }
 
 .btn-secondary-mix {
   color: rgb(251,155,81) ;
+  background-color: transparent; 
+  border: 1px solid rgb(251, 158, 88);
+}
+
+.blue-grad {
+  background-image: linear-gradient(to right, rgba(167,188,217), rgba(32,85,164));
+}
+
+.red-grad {
+  background-image: linear-gradient(to right, rgba(243,167,171), rgba(227,30,37)); 
+}
+
+.green-grad {
+  background-image:  linear-gradient(to right, rgba(177,216,183), rgba(54,159,71));
+}
+
+.mix-grad {
+  background-image: linear-gradient(to right, rgba(227,30,37),rgba(251, 158, 88),rgba(189,226, 186),rgba(54,159,71),rgba(32,85,164));
 }
 
 .blue {
@@ -64,6 +105,75 @@ body {
   color: rgb(177,216,183);
 }
 
-.text-orange {
+.text-mix {
   color: rgb(251, 158, 88);
+}
+
+.text-mix li:nth-child(3n+0) {
+  color: rgb(177,216,183)
+}
+
+.text-mix li:nth-child(3n+1) {
+  color: rgb(243,167,171)
+}
+
+.text-mix li:nth-child(3n+2) {
+  color: rgb(167,188,217)
+}
+
+
+.border-blue {
+  background-color: transparent;
+  border-left: 4px solid rgb(32,85,164);
+  padding-left: 5px;
+}
+
+.border-red {
+  background-color: transparent;
+  border-left: 4px solid rgb(227,30,37);
+  padding-left: 5px;
+}
+
+.border-green {
+  background-color: transparent;
+  border-left: 4px solid rgb(54,159,71);
+  padding-left: 5px;
+}
+
+.border-mix {
+  background-color: transparent;
+  border-left: 4px solid rgb(251, 158, 88);
+  padding-left: 5px;
+}
+
+.card-red {
+  border-color: none;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 5px rgb(227,30,37);
+}
+
+.card-blue {
+  border: none;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 5px rgb(32,85,164);
+}
+
+.card-green {
+  border: none;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 5px rgb(54,159,71);
+}
+
+.card-mix {
+  border: none;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 5px rgb(251, 158, 88);
+}
+
+.btn-size {
+  font-size: smaller;
+}
+
+span {
+  font-size: smaller;
 }

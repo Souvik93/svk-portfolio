@@ -1,28 +1,25 @@
 <div class="row">
     <div class="col-md-12" id="mySummary">
         <div class="card">
-            <div class="card-header" [ngClass]="themeColor">
+            <div class="card-header" [ngClass]="themeColor + '-grad'">
                 <h4 class="primary-text" >Hello, I am Souvik Das. I'm a Full Stack Developer By <strong>Passion</strong>.</h4>
             </div>
             <div class="card-body" >
                 <h5 class="card-title"
-                [ngClass]="{'btn-secondary-red': themeColor=='red','btn-secondary-blue': themeColor=='blue', 'btn-secondary-green': themeColor=='green'}"
+                [ngClass]="'secondary-text-'+ themeColor"
                 >I want to develop things that make a difference.</h5>
 
-                <ul class="list-group list-group-flush list-style">
+                <ul class="list-group list-group-flush list-style" [ngClass]="{'text-mix':'mix' == themeColor}">
                     <li class="list-group-item" *ngFor="let detail of myDetails" @fadeIn>
                            <span><i class="fa fa-arrow-right" [ngClass]="'text-'+themeColor" ></i></span> <span> {{detail.description}}</span>
                     </li>
                 </ul>
             </div>
             <div class="card-footer" @fadeInBtn>
-                <button class="btn" [routerLink]="['/about',themeColor]"
-                [ngClass]="{'btn-secondary-red': themeColor=='red','btn-secondary-blue': themeColor=='blue', 'btn-secondary-green': themeColor=='green'}"
-                ><span>Know More </span> <i class="fa fa-arrow-right"></i></button>
+                <button style="margin-top:5px; margin-bottom: 5px;" class="btn" [routerLink]="['/about',themeColor]"
+                [ngClass]="{'btn-secondary-red': themeColor=='red','btn-secondary-blue': themeColor=='blue', 'btn-secondary-green': themeColor=='green', 'btn-secondary-mix': themeColor == 'mix'}"
+                >Know More <i class="fa fa-arrow-right"></i></button>
             </div>
-        </div>
-
-
-                    
+        </div>             
     </div>
 </div>

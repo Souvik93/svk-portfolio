@@ -11,18 +11,8 @@
     color: whitesmoke;
   }
 
-  .blue {
-    background-color: rgb(32,85,164);
+  .fa-heart {
+    color: red;
   }
 
-  .red {
-    background-color: rgb(227,30,37);
-  }
-
-  .green {
-    background-color: rgb(54,159,71);
-  }
-
-  .mix {
-    background-color: rgb(171,205,234);
-  }
+  

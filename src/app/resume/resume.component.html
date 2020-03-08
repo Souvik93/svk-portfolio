@@ -1,9 +1,36 @@
 <div class="row">
 
-    <div class="col-md-12">
-            <a download="CV.docx" target="_blank" href="./assets/CV.docx">
-                Click here to download my CV.
-              </a>
+    <div class="col-md-12 col-12">
+        <h5>
+            Download My CV.
+        </h5>
+        <h6 [ngClass]="'border-' + themeColor">Know more about my works in details by downloading my Curriculum Vitae.</h6>
+    </div>
+
+    <div class="col-md-6 col-6">
+
+        <a class="d-none d-sm-block btn btn-lg btn-size" [ngClass]="'btn-secondary-'+ themeColor" download="CV.pdf"
+            target="_blank" href="./assets/CV.pdf">
+            <i class="fa fa-file-pdf-o"> </i> Click here to download Pdf version of my CV.
+        </a>
+        <a class="d-block d-sm-none btn btn-size" [ngClass]="'btn-secondary-'+ themeColor" download="CV.pdf"
+            target="_blank" href="./assets/CV.pdf">
+            <i class="fa fa-file-pdf-o"> </i> Single Page</a>
+
+    </div>
+
+    <div class="col-md-6 col-6">
+
+        <a class="btn btn-lg btn-size d-none d-sm-block" [ngClass]="'btn-secondary-'+ themeColor" download="CV.docx"
+            target="_blank" href="./assets/CV.docx">
+            <i class="fa fa-file-word-o"> </i> Click here to download Word version of my CV.
+        </a>
+        <a class="btn btn-size d-block d-sm-none" [ngClass]="'btn-secondary-'+ themeColor" download="CV.docx"
+            target="_blank" href="./assets/CV.docx">
+            <i class="fa fa-file-word-o"> </i> Multi Page
+        </a>
+
+
     </div>
 
 </div>

@@ -7,7 +7,7 @@
 }
 
 .primary-text {
-    color: antiquewhite;
+    color: black;
 }
 
 .secondary-text {
@@ -16,4 +16,8 @@
 
 .list-style {
     list-style-type: none;
+}
+
+#mySummary{
+    min-height: 100%;
 }

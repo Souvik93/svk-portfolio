@@ -37,7 +37,7 @@ export class AboutComponent implements OnInit {
     this.myPortfolioServiceService.getSkillsDetails().subscribe((res: Skills[]) => {
       this.mySkills = res;
     });
-    this.checkColor(this.route.snapshot.paramMap.get('id'));
+    this.checkColor(this.route.snapshot.paramMap.get('color'));
    }
 
   ngOnInit(): void {
