@@ -7,22 +7,27 @@
 }
 
 .blue {
+    background-color: transparent;
     border-left: 4px solid rgb(32,85,164);
 }
 
 .red {
+    background-color: transparent;
     border-left: 4px solid rgb(227,30,37);
 }
 
 .green {
+    background-color: transparent;
     border-left: 4px solid rgb(54,159,71);
 }
 
 .orange {
+    background-color: transparent;
     border-left: 4px solid rgb(251, 158, 88);
 }
 
 .light-green {
+    background-color: transparent;
     border-left: 4px solid rgb(189,226, 186);
 }
 

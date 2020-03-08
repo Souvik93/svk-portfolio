@@ -1,6 +1,5 @@
 #mySummary{
     justify-content:center;
-    background-image: url("/assets/PP.jpg");
 }
 
 .my-portfolio-body {
@@ -13,4 +12,8 @@
 
 .secondary-text {
     color: rgb(32,85,164);
+}
+
+.list-style {
+    list-style-type: none;
 }

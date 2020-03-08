@@ -10,7 +10,7 @@ import { ContactComponent } from './contact/contact.component';
 const routes: Routes = [
 
  {
-   path: 'home',
+   path: 'home/:color',
    component: HomeComponent
  },
 {
@@ -22,7 +22,7 @@ const routes: Routes = [
   component: NotFoundComponent
 },
 {
-  path: 'about',
+  path: 'about/:id',
   component: AboutComponent
 },
 {
@@ -31,12 +31,12 @@ const routes: Routes = [
 },
 {
   path: '',
-  redirectTo: '/home',
+  redirectTo: '/home/blue',
   pathMatch: 'prefix'
 },
 {
   path: '**',
-  redirectTo: '/error'
+  component: NotFoundComponent
 }
 ];
 

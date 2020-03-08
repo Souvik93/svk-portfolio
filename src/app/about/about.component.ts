@@ -1,13 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { Awards } from './awards.interface';
 import { MyPortfolioServiceService } from '../my-portfolio-service.service';
 import { Employers } from '../shared/employers.interface';
 import { Skills } from '../shared/skills.interface';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
-  styleUrls: ['./about.component.css']
+  styleUrls: ['./about.component.css'],
+  encapsulation: ViewEncapsulation.Emulated
 })
 export class AboutComponent implements OnInit {
 
@@ -23,7 +25,7 @@ export class AboutComponent implements OnInit {
   subColorOptions = ['sub-blue', 'sub-orange', 'sub-red', 'sub-light-green', 'sub-green'];
   themeolorOptions = ['blue', 'orange', 'red', 'light-green', 'green'];
 
-  constructor(private myPortfolioServiceService: MyPortfolioServiceService) {
+  constructor(private myPortfolioServiceService: MyPortfolioServiceService, private route: ActivatedRoute, private router: Router) {
     this.myPortfolioServiceService.getAwardsDetails().subscribe((res: Awards[]) => {
       this.myAwards = res;
     });
@@ -35,6 +37,7 @@ export class AboutComponent implements OnInit {
     this.myPortfolioServiceService.getSkillsDetails().subscribe((res: Skills[]) => {
       this.mySkills = res;
     });
+    this.checkColor(this.route.snapshot.paramMap.get('id'));
    }
 
   ngOnInit(): void {
@@ -43,25 +46,29 @@ export class AboutComponent implements OnInit {
       console.log('jo .. !!');
       console.log(res);
       if (res) {
-        switch (res) {
-          case ('red'):
-            this.themeColor = res;
-            this.themeSubColor = 'sub-red';
-            break;
-          case ('blue'):
-            this.themeColor = res;
-            this.themeSubColor = 'sub-blue';
-            break;
-          case ('green'):
-            this.themeColor = res;
-            this.themeSubColor = 'sub-green';
-            break;
-          default:
-            this.themeColor = this.themeolorOptions[Math.floor(Math.random() * this.themeolorOptions.length)];
-            this.themeSubColor = this.subColorOptions[Math.floor(Math.random() * this.subColorOptions.length)];
-          }
+        this.checkColor(res);
       }
     });
+  }
+
+  checkColor(res: string) {
+    switch (res) {
+      case ('red'):
+        this.themeColor = res;
+        this.themeSubColor = 'sub-red';
+        break;
+      case ('blue'):
+        this.themeColor = res;
+        this.themeSubColor = 'sub-blue';
+        break;
+      case ('green'):
+        this.themeColor = res;
+        this.themeSubColor = 'sub-green';
+        break;
+      default:
+        this.themeColor = this.themeolorOptions[Math.floor(Math.random() * this.themeolorOptions.length)];
+        this.themeSubColor = this.subColorOptions[Math.floor(Math.random() * this.subColorOptions.length)];
+      }
   }
 
   onRewardClick(award: Awards): void {

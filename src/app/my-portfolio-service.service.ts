@@ -30,4 +30,8 @@ export class MyPortfolioServiceService {
     return this.httpClient.get('./assets/skills.json');
   }
 
+  public getmyDetails(): Observable<any> {
+    return this.httpClient.get('./assets/myDetail.json');
+  }
+
 }

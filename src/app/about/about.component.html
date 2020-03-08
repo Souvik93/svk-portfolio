@@ -36,7 +36,7 @@
                     Mastercard , Deutsche Bank, Capgemini.
                 </h6>
                 <div class="row">
-                    <div class="col-md-4 col-xs-12" *ngFor="let employer of myEmployers">
+                    <div class="col-md-4 col-12" *ngFor="let employer of myEmployers">
                         <div class="card my-portfolio-sub-card" [ngClass]="themeSubColor">
                             <div class="row">
                                 <div class="col-md-1"><img src={{employer.employerLogo}} height="25px" width="25px"
@@ -70,7 +70,7 @@
                     <strong>4</strong> Years,<strong>{{myAwards.length}}</strong> Awards.
                 </h6>
                 <div class="row">
-                    <div class="col-md-4 col-xs-12" *ngFor="let award of myAwards">
+                    <div class="col-md-4 col-12" *ngFor="let award of myAwards">
                         <div class="card my-portfolio-sub-card" [ngClass]="themeSubColor">
                             <div class="row">
                                 <div class="col-md-1"><img src={{award.awardImageUrl}} height="25px" width="25px"
@@ -95,7 +95,7 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-md-12 text-centre">
+    <div class="col-md-12">
         <div class="card">
             <div class="card-body">
                 <h6 class="card-title">Technology Skills</h6>
@@ -103,7 +103,7 @@
                     Starting from requirement capturing to deployment.
                 </h6>
                 <div class="row">
-                    <div class="col-md-4 col-xs-4" *ngFor="let skill of mySkills">
+                    <div class="col-md-4 col-4" *ngFor="let skill of mySkills">
                         <div class="card my-portfolio-sub-card" [ngClass]="themeSubColor">
                             <h6 class="card-title my-portfolio-sub-text">{{skill.skillArea}}</h6>
                             <div class="row" *ngFor="let technology of skill.technologyNames">
