@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "socialName": "GitHub",
+        "socialIcon": "fa-github",
+        "socialLink": "https://github.com/Souvik93",
+        "userName": "Souvik93"
+    },
+    {
+        "id": 2,
+        "socialName": "LinkedIn",
+        "socialIcon": "fa-linkedin",
+        "socialLink": "https://www.linkedin.com/in/souvik-das-aaa34999/",
+        "userName": "souvik-das-aaa34999"
+    },
+    {
+        "id": 3,
+        "socialName": "Facebook",
+        "socialIcon": "fa-facebook",
+        "socialLink": "https://www.facebook.com/sdas.rng/",
+        "userName": "sdas.rng"
+    },
+    {
+        "id": 4,
+        "socialName": "Twitter",
+        "socialIcon": "fa-twitter",
+        "socialLink": "https://twitter.com/Souvik_Mcet",
+        "userName": "Souvik_Mcet"
+    },
+    {
+        "id": 5,
+        "socialName": "Email",
+        "socialIcon": "fa-envelope",
+        "socialLink": "mailto:souvik.das@live.in",
+        "userName": "Souvik Das"
+    },
+    {
+        "id": 6,
+        "socialName": "Hacker Rank",
+        "socialIcon": "fa-code",
+        "socialLink": "https://www.hackerrank.com/souvik_das",
+        "userName": "souvik_das"
+    },
+    {
+        "id": 7,
+        "socialName": "Stack Overflow",
+        "socialIcon": "fa-stack-overflow",
+        "socialLink": "https://stackoverflow.com/users/8193477/souvik",
+        "userName": "Souvik"
+    },
+    {
+        "id": 8,
+        "socialName": "Quora",
+        "socialIcon": "fa-quora",
+        "socialLink": "https://www.quora.com/profile/Souvik-Das-98",
+        "userName": "Souvik-Das-98"
+    },
+    {
+        "id": 9,
+        "socialName": "Instagram",
+        "socialIcon": "fa-instagram",
+        "socialLink": "https://www.instagram.com/Souvik_Mcet/",
+        "userName": "Souvik_Mcet"
+    }
+]
