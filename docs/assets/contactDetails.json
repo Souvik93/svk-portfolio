@@ -61,5 +61,12 @@
         "socialIcon": "fa-instagram",
         "socialLink": "https://www.instagram.com/Souvik_Mcet/",
         "userName": "Souvik_Mcet"
+    },
+    {
+        "id": 10,
+        "socialName": "YouTube",
+        "socialIcon": "fa-youtube",
+        "socialLink": " https://www.youtube.com/channel/UCcMKkd33WZYB5BbompylT-g",
+        "userName": "SM TechWorld"
     }
 ]
