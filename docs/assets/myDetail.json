@@ -20,5 +20,9 @@
     {
         "id": 5,
         "description": "Possess effective leadership, organizational and team management skills."
+    },
+    {
+        "id": 6,
+        "description": "Oracle Certified Associate, Java SE 7 Programmer"
     }
 ]
