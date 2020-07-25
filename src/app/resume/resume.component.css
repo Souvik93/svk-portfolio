@@ -1,0 +1,8 @@
+pdf-viewer {
+    display: block;
+    height: 50vh;
+}
+
+.extra-margin-top {
+    margin-top: 15px;
+}

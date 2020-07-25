@@ -11,6 +11,7 @@ declare let ga: Function;
 })
 export class ResumeComponent implements OnInit {
   themeColor: string;
+  pdfSrc = './assets/CV.pdf';
   constructor(private myService: MyPortfolioServiceService, private route: ActivatedRoute, private router: Router) {
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {

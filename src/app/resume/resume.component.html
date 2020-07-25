@@ -1,10 +1,10 @@
 <div class="row">
-
     <div class="col-md-12 col-12">
         <h5>
-            Download My CV.
+            Download Or View My CV  .
         </h5>
-        <h6 [ngClass]="'border-' + themeColor">Know more about my works in details by downloading my Curriculum Vitae.</h6>
+        <h6 [ngClass]="'border-' + themeColor">Know more about my works in details by downloading my Curriculum Vitae.
+        </h6>
     </div>
 
     <div class="col-md-6 col-6">
@@ -33,4 +33,21 @@
 
     </div>
 
+</div>
+<div class="row extra-margin-top">
+    <div class="col-md-12 col-12">
+        <h6 [ngClass]="'border-' + themeColor">Scroll down to view my profile.</h6>
+    </div>
+</div>
+<div class="row extra-margin-top">
+    <div class="col-md-3">
+
+    </div>
+    <div class="col-md-6">
+        <pdf-viewer [src]="pdfSrc" [render-text]="true" [original-size]="false" [fit-to-page]="false"
+             [external-link-target]="true"></pdf-viewer>
+    </div>
+    <div class="col-md-3">
+
+    </div>
 </div>
