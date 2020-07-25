@@ -61,5 +61,12 @@
         "socialIcon": "fa-instagram",
         "socialLink": "https://www.instagram.com/Souvik_Mcet/",
         "userName": "Souvik_Mcet"
+    },
+    {
+        "id": 10,
+        "socialName": "LeetCode",
+        "socialIcon": "fa-code",
+        "socialLink": "https://leetcode.com/souvik93/",
+        "userName": "Souvik93"
     }
 ]
