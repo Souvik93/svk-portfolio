@@ -45,7 +45,7 @@
         "id": 7,
         "socialName": "Stack Overflow",
         "socialIcon": "fa-stack-overflow",
-        "socialLink": "https://stackoverflow.com/users/8193477/souvik",
+        "socialLink": "https://stackoverflow.com/users/12666090/souvik",
         "userName": "Souvik"
     },
     {
@@ -61,5 +61,12 @@
         "socialIcon": "fa-instagram",
         "socialLink": "https://www.instagram.com/Souvik_Mcet/",
         "userName": "Souvik_Mcet"
+    },
+    {
+        "id": 10,
+        "socialName": "YouTube",
+        "socialIcon": "fa-youtube",
+        "socialLink": "https://www.youtube.com/channel/UCcMKkd33WZYB5BbompylT-g",
+        "userName": "SM TechWorld"
     }
 ]
