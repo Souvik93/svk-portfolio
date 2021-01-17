@@ -9,10 +9,24 @@
 
   .my-portfolio-footer {
     color: whitesmoke;
+    margin-top: 5%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
   }
 
   .fa-heart {
     color: red;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 60px; /* Set the fixed height of the footer here */
+    line-height: 20px; /* Vertically center the text there */
   }
 
   
