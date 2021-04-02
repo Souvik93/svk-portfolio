@@ -82,9 +82,9 @@
                 "name": "Git",
                 "logo": "./assets/GIT.png"
             },
-            { 
-                "name": "AWS",
-                "logo": "./assets/AWS.png"
+            {
+                "name": "Azure",
+                "logo": "./assets/azure.png"
             },
             { 
                 "name": "PCF",

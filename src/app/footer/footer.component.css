@@ -1,8 +1,8 @@
 
-#page-content {
+/* #page-content {
     flex: 1 0 auto;
   }
-  
+
   #sticky-footer {
     flex-shrink: none;
   }
@@ -25,8 +25,18 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    min-height: 60px; /* Set the fixed height of the footer here */
-    line-height: 20px; /* Vertically center the text there */
-  }
+    min-height: 60px;
+    line-height: 20px;
+  } */
 
-  
+  footer {
+    clear: both;
+    color: whitesmoke;
+    position: relative;
+
+}
+
+.fa-heart {
+  color: red;
+}
+

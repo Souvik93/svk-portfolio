@@ -23,8 +23,15 @@
     {
         "employerName": "Capgemini",
         "designation": "Senior Software Engineer",
-        "startDate": "July 2016",
+        "startDate": "July, 2016",
         "endDate": "August, 2018",
+        "employerLogo":"https://media-exp1.licdn.com/dms/image/C4D0BAQELgLELjHGtng/company-logo_100_100/0/1609742123161?e=1619049600&v=beta&t=a2RNlu-hTpCZs5aWXAYNn869-gHEFH2g7NDGvk9DLcM"
+    },
+    {
+        "employerName": "Capgemini",
+        "designation": "Intern",
+        "startDate": "Februrary, 2016",
+        "endDate": "May, 2016",
         "employerLogo":"https://media-exp1.licdn.com/dms/image/C4D0BAQELgLELjHGtng/company-logo_100_100/0/1609742123161?e=1619049600&v=beta&t=a2RNlu-hTpCZs5aWXAYNn869-gHEFH2g7NDGvk9DLcM"
     }
 ]
