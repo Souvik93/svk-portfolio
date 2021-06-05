@@ -39,6 +39,10 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.themeColor = this.route.snapshot.paramMap.get('color');
+    const tag = document.createElement('script');
+
+    tag.src = 'https://www.youtube.com/iframe_api';
+    document.body.appendChild(tag);
     this.myService.getMyDetails().subscribe(res => {
       this.myDetails = res;
     });

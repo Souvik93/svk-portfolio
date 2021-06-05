@@ -4,34 +4,34 @@
         "designation": "Software Engineer",
         "startDate": "February, 2021",
         "endDate": "Present",
-        "employerLogo":"https://media-exp1.licdn.com/dms/image/C560BAQH8hBKOFXvqag/company-logo_100_100/0/1609783110976?e=1621468800&v=beta&t=UPYAB21r5L0y3wj8EJp3czUCjLHxA1eCZ1RlOuDm87Q"
+        "employerLogo":"https://media-exp1.licdn.com/dms/image/C560BAQE88xCsONDULQ/company-logo_100_100/0/1618231291419?e=1631145600&v=beta&t=zU2srYlPHC4ET1AnxjMh15FYrBKKneyMC0obhmG_fPI"
     },
     {
         "employerName": "Mastercard",
         "designation": "Software Development Engineer II",
         "startDate": "December, 2019",
         "endDate": "January, 2021",
-        "employerLogo":"https://media-exp1.licdn.com/dms/image/C560BAQGOW4NIyYRRqQ/company-logo_100_100/0/1519856263087?e=1619049600&v=beta&t=5Vdyky8Lu6Adpp7sBCPlrapGDkkRb9clZftjby3R0ts"
+        "employerLogo":"./assets/MC.png"
     },
     {
         "employerName": "Deutsche Bank",
         "designation": "Seninor Technology Analyst",
         "startDate": "August, 2018",
         "endDate": "December, 2019",
-        "employerLogo":"https://media-exp1.licdn.com/dms/image/C4D0BAQF9Z2szoTiwhw/company-logo_100_100/0/1593590065657?e=1619049600&v=beta&t=Om3WA7JipGEOwRS2ncR-oTGtt47pYvKi5zcbtL1Ivvk"
+        "employerLogo":"./assets/DB.jpg"
     },
     {
         "employerName": "Capgemini",
         "designation": "Senior Software Engineer",
         "startDate": "July, 2016",
         "endDate": "August, 2018",
-        "employerLogo":"https://media-exp1.licdn.com/dms/image/C4D0BAQELgLELjHGtng/company-logo_100_100/0/1609742123161?e=1619049600&v=beta&t=a2RNlu-hTpCZs5aWXAYNn869-gHEFH2g7NDGvk9DLcM"
+        "employerLogo":"./assets/CG.jpg"
     },
     {
         "employerName": "Capgemini",
         "designation": "Intern",
         "startDate": "Februrary, 2016",
         "endDate": "May, 2016",
-        "employerLogo":"https://media-exp1.licdn.com/dms/image/C4D0BAQELgLELjHGtng/company-logo_100_100/0/1609742123161?e=1619049600&v=beta&t=a2RNlu-hTpCZs5aWXAYNn869-gHEFH2g7NDGvk9DLcM"
+        "employerLogo":"./assets/CG.jpg"
     }
 ]

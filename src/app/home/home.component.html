@@ -2,7 +2,7 @@
     <div class="col-md-12" id="mySummary">
         <div class="card">
             <div class="card-header" [ngClass]="themeColor + '-grad'">
-                <h4 class="primary-text" >Hello, I am Souvik Das. I'm a Full Stack Developer By <strong>Passion</strong>.</h4>
+                <h5 class="primary-text" >Hello, I am Souvik Das. I'm a Full Stack Developer By <strong>Passion</strong>.</h5>
             </div>
             <div class="card-body" >
                 <h5 class="card-title"
@@ -19,6 +19,35 @@
                 <button style="margin-top:5px; margin-bottom: 5px;" class="btn" [routerLink]="['/about',themeColor]"
                 [ngClass]="{'btn-secondary-red': themeColor=='red','btn-secondary-blue': themeColor=='blue', 'btn-secondary-green': themeColor=='green', 'btn-secondary-mix': themeColor == 'mix'}"
                 >Know More <i class="fa fa-arrow-right"></i></button>
+            </div>
+        </div>             
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6" id="mySummary">
+        <div class="card">
+            <div class="card-header" [ngClass]="themeColor + '-grad'">
+                <h5 class="primary-text" > Me @ Brain Bout India Finale</h5>
+            </div>
+            <div class="card-body" >
+                <youtube-player height="280px" width="100%" videoId="Zy8p_dna8AI"></youtube-player>
+            </div>
+        </div>             
+    </div>
+    <div class="col-md-6" id="mySummary">
+        <div class="card">
+            <div class="card-header" [ngClass]="themeColor + '-grad'">
+                <h5 class="primary-text" > My Article</h5>
+            </div>
+            <div class="card-body" >
+                <a href="https://www.codegrip.tech/productivity/coding-hacks-to-help-developers-write-better-code/" target="_blank">
+                <img class="img img-responsive" height="172px" width="54%" src="./assets/CoderGripThumbnail.jpeg">
+                <h6 class="t-14 t-bold">
+                    <div id="ember120" class="lt-line-clamp lt-line-clamp--multi-line ember-view" style="-webkit-line-clamp: 2">  Coding Hacks to Help developers write better code</div>
+                </h6>
+                <p>Coding Hacks to Help developers write better code Based on interviews of developers from top companies such as Google, Microsoft and Amazon. Programming is hard. If it wasn't, it wouldn't [...]
+                </p>
+                </a>
             </div>
         </div>             
     </div>

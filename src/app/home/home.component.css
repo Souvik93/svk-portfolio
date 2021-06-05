@@ -20,4 +20,18 @@
 
 #mySummary{
     min-height: 100%;
+    margin-bottom: 15px;
+}
+
+.inline-show-more-text--is-collapsed-with-line-clamp {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin: 0 auto;
+}
+
+a, a:active, a:focus, a:visited:focus {
+    color: black !important;
 }
